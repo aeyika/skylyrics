@@ -1,0 +1,19 @@
+plugins { id 'java-library' }
+group = 'dev.skylyrics'
+version = '0.1.0'
+repositories { mavenCentral() }
+java { sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21 }
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+dependencies {
+    api 'com.google.code.gson:gson:2.13.2'
+    api 'org.java-websocket:Java-WebSocket:1.6.0'
+    testImplementation platform('org.junit:junit-bom:5.13.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    testRuntimeOnly 'org.slf4j:slf4j-simple:2.0.16'
+}
+sourceSets {
+    main.resources { srcDir '../test-fixtures'; include 'demo.json' }
+    test.resources { srcDir '../test-fixtures'; include '*.json', '*.jsonl' }
+}
+test { useJUnitPlatform(); systemProperty 'file.encoding', 'UTF-8'; testLogging { events 'passed', 'skipped', 'failed' } }

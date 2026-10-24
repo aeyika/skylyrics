@@ -1,0 +1,27 @@
+{
+  "v": 1, "type": "lyrics", "seq": 3,
+  "trackId": "skylyrics:demo", "sync": "SYLLABLE",
+  "lines": [
+    {"startMs": 1000, "endMs": 6000, "alignment": "LEFT", "role": "LEAD", "segments": [
+      {"text": "Look", "startMs": 1000, "endMs": 2000, "partOfWord": false},
+      {"text": "up", "startMs": 2000, "endMs": 3300, "partOfWord": false},
+      {"text": "into", "startMs": 3300, "endMs": 4200, "partOfWord": false},
+      {"text": "the sky", "startMs": 4200, "endMs": 6000, "partOfWord": false}]},
+    {"startMs": 6500, "endMs": 11500, "alignment": "LEFT", "role": "LEAD", "segments": [
+      {"text": "Let", "startMs": 6500, "endMs": 7300, "partOfWord": false},
+      {"text": "every", "startMs": 7300, "endMs": 8500, "partOfWord": false},
+      {"text": "little", "startMs": 8500, "endMs": 9800, "partOfWord": false},
+      {"text": "light fly", "startMs": 9800, "endMs": 11500, "partOfWord": false}]},
+    {"startMs": 9000, "endMs": 11500, "alignment": "RIGHT", "role": "BACKGROUND", "segments": [
+      {"text": "higher", "startMs": 9000, "endMs": 11500, "partOfWord": false}]},
+    {"startMs": 12500, "endMs": 18000, "alignment": "RIGHT", "role": "LEAD", "segments": [
+      {"text": "雲の向こう", "startMs": 12500, "endMs": 15000, "partOfWord": false},
+      {"text": "café ✨", "startMs": 15000, "endMs": 18000, "partOfWord": false}]},
+    {"startMs": 18500, "endMs": 24000, "alignment": "LEFT", "role": "LEAD", "segments": [
+      {"text": "Across the mountains, past the rivers, let our little lanterns find their way home", "startMs": 18500, "endMs": 24000, "partOfWord": false}]},
+    {"startMs": 25000, "endMs": 30500, "alignment": "LEFT", "role": "LEAD", "segments": [
+      {"text": "We", "startMs": 25000, "endMs": 26000, "partOfWord": false},
+      {"text": "are", "startMs": 26000, "endMs": 27500, "partOfWord": false},
+      {"text": "skyward", "startMs": 27500, "endMs": 30500, "partOfWord": false}]}
+  ]
+}

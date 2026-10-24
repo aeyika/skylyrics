@@ -1,0 +1,6 @@
+pluginManagement { repositories { maven { url = 'https://maven.fabricmc.net/' }; gradlePluginPortal() } }
+rootProject.name = 'skylyrics-1.21.11'
+include ':core'
+project(':core').projectDir = file('../core')
+include ':presentation'
+project(':presentation').projectDir = file('../presentation')

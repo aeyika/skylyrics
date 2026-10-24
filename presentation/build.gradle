@@ -1,0 +1,18 @@
+plugins { id 'java-library' }
+repositories { mavenCentral() }
+java { sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21 }
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+dependencies {
+    api project(':core')
+    testImplementation platform('org.junit:junit-bom:5.13.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+test { useJUnitPlatform(); systemProperty 'java.awt.headless','true'; testLogging { events 'passed','failed' } }
+tasks.register('renderPreviews', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.skylyrics.presentation.RenderPreviews'
+    systemProperty 'java.awt.headless','true'
+    args project.file('../test-results/previews').absolutePath
+}

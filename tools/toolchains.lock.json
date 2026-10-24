@@ -1,0 +1,27 @@
+{
+    "schema":  1,
+    "deno":  {
+                 "url":  "https://github.com/denoland/deno/releases/download/v2.5.6/deno-x86_64-pc-windows-msvc.zip",
+                 "version":  "2.5.6",
+                 "sha256":  "1327356cd63e23d0da7d11d5f5ca6b45902b1b62ee2debd4fbbd0aad2aab9786"
+             },
+    "upstream":  {
+                     "revision":  "61ac582da092311e893423269ca7f09003108705",
+                     "url":  "https://github.com/surfbryce/beautiful-lyrics.git"
+                 },
+    "jdk25":  {
+                  "url":  "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+                  "version":  "jdk-25.0.4.1+1",
+                  "sha256":  "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283"
+              },
+    "gradle":  {
+                   "url":  "https://services.gradle.org/distributions/gradle-9.5.1-bin.zip",
+                   "version":  "9.5.1",
+                   "sha256":  "bafc141b619ad6350fd975fc903156dd5c151998cc8b058e8c1044ab5f7b031f"
+               },
+    "jdk21":  {
+                  "url":  "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+                  "version":  "jdk-21.0.12.1+1",
+                  "sha256":  "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e"
+              }
+}

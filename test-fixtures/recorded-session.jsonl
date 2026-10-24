@@ -1,0 +1,5 @@
+{"v":1,"type":"track","seq":1,"trackId":"skylyrics:test","title":"Original protocol fixture","durationMs":32000}
+{"v":1,"type":"playback","seq":2,"trackId":"skylyrics:test","positionMs":1000,"durationMs":32000,"playing":true,"sentAtMs":0}
+{"v":1,"type":"playback","seq":3,"trackId":"skylyrics:test","positionMs":2000,"durationMs":32000,"playing":false,"sentAtMs":0}
+{"v":1,"type":"playback","seq":4,"trackId":"skylyrics:test","positionMs":18000,"durationMs":32000,"playing":true,"sentAtMs":0}
+{"v":1,"type":"playback","seq":5,"trackId":"skylyrics:test","positionMs":0,"durationMs":32000,"playing":true,"sentAtMs":0}

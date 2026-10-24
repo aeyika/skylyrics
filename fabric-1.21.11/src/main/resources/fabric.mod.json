@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "skylyrics",
+  "version": "${version}",
+  "name": "Sky Lyrics",
+  "description": "Beautiful Lyrics in your Minecraft sky. Beautiful Lyrics by surfbryce; adapted for Minecraft.",
+  "authors": ["Sky Lyrics contributors"],
+  "contributors": ["surfbryce — Beautiful Lyrics presentation and animation"],
+  "environment": "client",
+  "accessWidener": "skylyrics.accesswidener",
+  "entrypoints": { "client": ["dev.skylyrics.fabric.SkyLyricsClient"] },
+  "depends": { "fabricloader": ">=0.20.1", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}

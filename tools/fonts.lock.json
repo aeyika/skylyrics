@@ -1,0 +1,22 @@
+{
+    "revision":  "4d4ae4105dcd91a405d20f4cb818362287938c44",
+    "files":  [
+                  {
+                      "sha256":  "07dcef108e13679a00f394176e553e4da0dcc467940c3f623abe9bfabe849be0",
+                      "name":  "LyricsRegular.woff2"
+                  },
+                  {
+                      "sha256":  "56b5e4ffa0fdd9b15f418f319929c69f6ff2a077e7a68ac48a135b1a4c351df9",
+                      "name":  "LyricsMedium.woff2"
+                  },
+                  {
+                      "sha256":  "f2aa1721fbf761144e53ea938621fcab668096a01d5d44b2a5b239e725ea91de",
+                      "name":  "LyricsSemibold.woff2"
+                  },
+                  {
+                      "sha256":  "d6c66c9c04a51d1bbe3454385627d8dc52ad523cb2cb040c77a2909899d3924a",
+                      "name":  "LyricsBold.woff2"
+                  }
+              ],
+    "repository":  "https://github.com/awdev1/beautitifullyricsfont"
+}
